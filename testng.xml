@@ -1,0 +1,13 @@
+<suite name="any name">
+ <test name="any name">
+ <classes>
+    <listeners>
+        <listener class-name="utils.Listeners.TestListener"/>
+        <listener class-name="utils.Listeners.AnnotationTransformer"/>
+    </listeners>
+    
+ <class name="basketTests.formsOnTest" />
+ <class name="basketTests.inputElmntTest" />
+ </classes>
+ </test>
+</suite>
